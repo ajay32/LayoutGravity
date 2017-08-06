@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="ajaymehta.layoutgravity.MainActivity">
+
+    <!-- layout_gravity attribute works when a component is
+    wrap_content ..and also it works in relationship with its
+    parent layout-->
+
+    <!--it gives priority to orintation  with height ,width attribute
+
+    when we take no orintation it take it as horizontal of parent layout
+
+     now we took horizontal orintation so we could move our textview
+     vertically by using layout_gravity proprety .. n it also need parent
+     height to be match parent so that i could move freely ..vertically
+     -->
+
+
+
+
+    <TextView
+        android:padding="7dp"
+        android:background="#abc"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+</LinearLayout>
